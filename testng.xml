@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="functionaltestingSuite">
+  <test parallel="classes" thread-count="5" name="Test">
+    <classes>
+      <class name="testclass.verifyloginfunctionality"/>
+      <class name="testclass.veriyloginfunofFB"/>
+      <class name="testclass.veifylogoutfunctionality"/>
+      <class name="testclass.verifyhomepagefunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
